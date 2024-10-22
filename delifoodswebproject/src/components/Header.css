@@ -1,0 +1,19 @@
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+ul {
+    z-index: 2;
+    display: flex;
+    list-style-type: none;
+    margin: 1rem;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+li {
+    z-index: 2;
+    list-style-type: none;
+    margin-left: 10rem;
+}

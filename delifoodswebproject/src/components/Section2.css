@@ -1,0 +1,11 @@
+.all-grid{
+    display:grid; 
+    /* background-color: red; */
+    
+}
+
+.Header1{
+    margin-left: 50px;
+    font-weight: bold;
+    border-bottom: solid 3px orange;
+}
