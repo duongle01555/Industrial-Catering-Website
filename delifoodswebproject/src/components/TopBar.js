@@ -5,7 +5,7 @@ function TopBar() {
   return (
     <div className="top-bar-grid">
         <div>
-            <img src="../../asset/logo.jpg" alt="haha"/>
+            <img id="logoduck" src={require('../asset/logo.jpg')} alt="logo"/>
         </div>
         <div>
             <p id="title-1">CÔNG TY TNHH DỊCH VỤ DELI FOODS</p>

@@ -2,7 +2,7 @@ import React from 'react';
 import './CallToAction.css';
 import Button from 'react-bootstrap/Button';
 
-function BoxComponent() {
+function CallToAction() {
   return (
     <div className="box1">
       <h1>Sẵn sàng sử dụng dịch vụ của Delifoods</h1>
@@ -13,4 +13,4 @@ function BoxComponent() {
   );
 };
 
-export default BoxComponent;
+export default CallToAction;
