@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js';
-import AboutUs from './components/AboutUs.js';
+import MainPage from './components/Main-Page.js';
 import Footer from './components/Footer.js';
 
 
@@ -10,7 +9,7 @@ function App() {
   return (
   <div>
     <Header />
-    <AboutUs />
+    <MainPage />
     <Footer />
   </div>
    
