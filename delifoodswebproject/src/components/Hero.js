@@ -1,15 +1,22 @@
 import React from 'react';
-import './Hero.css'; 
+import './Hero.css';
+
+import Video from '../asset/HotFood_JPN.mp4'
 
 function Hero() {
   return (
-    <div>
-        <div className="hero">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiY7OQq4dlLTSkjGScKhVIWbXIrtw5GY3nNg&s" />
-        </div>
+    <div className="hero" id='video'>
+      <video autoPlay loop muted>
+        <source src={Video} type="video/mp4" />
+      </video>
+      <div className="hero-content">
+        <h1>Chào mừng đến với Delifoods</h1>
+        <p>An toàn  -  Vệ sinh  -  Chất lượng  -  Chuyên nghiệp</p>
+        <button>Đặt món</button>
+        <button>Liên hệ</button>
+      </div>
     </div>
   );
 }
-
 
 export default Hero;
