@@ -2,6 +2,9 @@ Header1{
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    color: red;
+    width: 532px;
+    height: 62.07px;
 }
 
 .section-1 {
@@ -12,3 +15,18 @@ Header1{
   margin: 3rem;
 }
 
+.inner-section-1 {
+  width: 2869px;
+  height: 856.96;
+}
+
+.image-section-1 {
+  width: 494px;
+  height: 329.37px;
+}
+
+introduction-section-1 {
+  width: 563px;
+  height: 735.82px;
+  overflow: scroll;
+}
