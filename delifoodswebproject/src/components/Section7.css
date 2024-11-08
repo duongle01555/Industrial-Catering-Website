@@ -1,0 +1,69 @@
+.all-7{
+    background: linear-gradient(to top right , #978B03 , #F4E651);
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.Header-7{
+    color:rgba(129, 18, 21, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Review7-1, .Review7-3{
+    margin: 10px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    color: aliceblue;
+}
+
+.Review7-1 {
+    border-bottom: solid;
+    border-color: aliceblue;
+    margin: 10px 20px 0px 20px;
+    border-width:1px;
+}
+
+.Review7-2{
+    margin: 10px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    color: aliceblue;
+    border-bottom: solid;
+    border-color: aliceblue;
+    margin: 10px 20px 0px 20px;
+    border-width:1px;
+}
+
+.image-div1, .image-div2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-div3 {
+    display: flex;
+}
+.picture1, .picture3 {
+    width: 30%;
+    border-radius: 100%; 
+
+}
+.picture2 {
+    width: 30%;
+    border-radius: 100%; 
+}
+
+#cty{
+    text-align : right;
+    margin: 0px 20px 0px 0px;
+}    
+#Nut{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    width: 80px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin:0px auto 0px auto;
+    font-weight: bold;
+}

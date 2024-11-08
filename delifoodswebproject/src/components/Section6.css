@@ -1,69 +1,40 @@
-.all-grid{
-    background: linear-gradient(to top right , #978B03 , #F4E651);
-    padding: 10px 5px 10px 5px;
-    display: flex;
-    flex-direction: column;
+
+.all-6 {
+    /* background-color: rgba(150, 58, 61, 1); */
+    max-width: 90%;
+    justify-self: center;
+
 }
-.Header1{
-    color:rgba(129, 18, 21, 1);
+
+.all-6 h1 {
+    color: red;
+    font-size: calc(1.5vw + 1.5vh);
+    /* align-self: center;
+    align-items: center;
+    align-content: center; */
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-.PS1, .PS3{
-    margin: 10px 20px 0px 20px;
-    display: grid;
-    grid-template-columns: 75% 25%;
-    color: aliceblue;
 }
 
-.PS1 {
-    border-bottom: solid;
-    border-color: aliceblue;
-    margin: 10px 20px 0px 20px;
-    border-width:1px;
-}
-
-.PS2{
-    margin: 10px 20px 0px 20px;
-    display: grid;
-    grid-template-columns: 25% 75%;
-    color: aliceblue;
-    border-bottom: solid;
-    border-color: aliceblue;
-    margin: 10px 20px 0px 20px;
-    border-width:1px;
-}
-
-.image-div1, .image-div2 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.image-div3 {
-    display: flex;
-}
-.picture1, .picture3 {
-    width: 30%;
-    border-radius: 100%; 
-
-}
-.picture2 {
-    width: 30%;
-    border-radius: 100%; 
-}
-
-#cty{
-    text-align : right;
-    margin: 0px 20px 0px 0px;
-}    
-#Nut{
+.all-6 p {
+    margin: 1em 3em 1em 3em;
+    font-size: calc(0.75vw + 0.75vh);
     text-align: center;
-    background-color: yellow;
-    color: black;
-    width: 80px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 15px;
-    margin:0px auto 0px auto;
-    font-weight: bold;
+    /* color: blueviolet; */
 }
+
+/* .container {
+    border: 2px solid #000;
+    padding: 1em;
+} */
+
+/* .row {
+    border: 1px solid #000;
+    margin: 1em 0;
+}
+
+.col {
+    border: 1px solid #000; 
+    padding: 1em; 
+    text-align: center; 
+    font-size: calc(0.75vw + 0.75vh);
+} */

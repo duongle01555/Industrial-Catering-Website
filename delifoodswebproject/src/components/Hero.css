@@ -2,7 +2,7 @@
         position: relative;
         width: 100%;
         height: 100vh;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
   
     .hero video {
@@ -24,20 +24,24 @@
     .hero-content h1 {
         font-size: 3rem;
         margin-bottom: 1rem;
+        font-size: calc(1.25vw + 1.25vh);
     }
   
     .hero-content p {
         font-size: 1.5rem;
         margin-bottom: 2rem;
+        font-size: calc(1vw + 1vh);
     }
   
     .hero-content button {
-        padding: 1rem 2rem;
-        font-size: 1.2rem;
+        width: 8em;
+        height:fit-content;
+        padding: calc(0.75vw + 0.75vh);
+        font-size: calc(1vw + 1vh);
         background-color: #fff;
         color: #000;
         border: none;
-        border-radius: 4px;
+        /* border-radius: 4px; */
         cursor: pointer;
         border-radius: 15px;
     }
@@ -45,10 +49,10 @@
     .hero-content button:first-of-type {
         background-color: #811215;
         color: white;
-        margin-right: 25px;
+        margin: 1em 3em 1em 3em;
     }
 
     .hero-content button:last-of-type {
         
-        margin-left: 50px;
+        margin: 1em 3em 1em 3em;
     }
