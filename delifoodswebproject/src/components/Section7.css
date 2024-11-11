@@ -3,13 +3,45 @@
     padding: 10px 5px 10px 5px;
     display: flex;
     flex-direction: column;
+    margin: 0em 2em 0em 2em;
+    border-radius: 10px;
 }
 .Header-7{
     color:rgba(129, 18, 21, 1);
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: calc(1.5vw + 1.5vh);
+    margin: 0.5em 0em 0.5em 0em;
 }
+
+.user-rating-table {
+    margin: 0em 1em 0em 1em;
+}
+
+.user-rating-image {
+    display: block;
+    width: 75%;
+    height: auto;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1em;
+}
+
+.Card-Title-Style{
+    font-size: calc(0.9vw + 0.9vh);
+}
+
+.Card-Text-Rating{
+    font-size: calc(0.9vw + 0.9vh);
+}
+
+.Card-Text-Review{
+    font-size: calc(0.75vw + 0.75vh);
+    /* line-height: 1.5; */
+}
+
+/* 
 .Review7-1, .Review7-3{
     margin: 10px 20px 0px 20px;
     display: grid;
@@ -66,4 +98,4 @@
     border-radius: 15px;
     margin:0px auto 0px auto;
     font-weight: bold;
-}
+} */
