@@ -1,0 +1,37 @@
+.all-footer {
+    background-color: #963A3D;
+    max-width: 90%;
+    justify-self: center;
+    margin-top: 2em;
+    padding: 20px;
+    color: white;
+}
+
+#service_header_title {
+    text-align: center;
+}
+
+#service_header_aboutus_paragraph{
+    margin-top: 0.9em;
+    line-height: 1.8;
+}
+
+.footer-service-list{
+    text-indent: 1px;
+    line-height: 2.5;
+}
+
+.all-footer a {
+    color: #2FBFED; 
+    text-decoration: none;
+  }
+  
+  .all-footer a:hover {
+    color: #2FBFED; 
+    text-decoration: underline; 
+  }
+
+.copyright {
+    text-align: center;
+    margin-top: 2em;
+}
