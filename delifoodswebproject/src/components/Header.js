@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import ReactDOM from "react-dom/client";
+import { Link } from 'react-router-dom';
 import TopBar from './TopBar.js';
-import Hero from './Hero.js';
-import './Header.css'; 
+import Hero from './Home_components/Hero.js';
+import './Header.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
     const [activeTab, setActiveTab] = useState('home');
@@ -16,46 +15,56 @@ function Header() {
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     }
-    
-  return (
-    <div>
-        <TopBar />
-        <hr></hr>
-        <ul className="flex nav nav-pills nav-fill">
-            <li className="nav-item">
-                <a className={"nav-link ${activeTab === 'home' ? 'active' : ''}"} 
-                   aria-current="page" 
-                   href="http://localhost:3000"
-                   onClick={() => handleTabClick('home')}>
-                    Trang Chủ
-                </a>
-            </li>
-            <li className="nav-item">
-                <a className={"nav-link ${activeTab === 'contact' ? 'active' : ''}"} 
-                   href="http://localhost:3000/lienhe"
-                   onClick={() => handleTabClick('contact')}>
-                    Liên Hệ
-                </a>
-            </li>
-            <li className="nav-item">
-                <a className={"nav-link ${activeTab === 'services' ? 'active' : ''}"} 
-                   href="http://localhost:3000/dichvu"
-                   onClick={() => handleTabClick('services')}>
-                    Dịch Vụ
-                </a>
-            </li>
-            <li className="nav-item">
-                <a className={"nav-link ${activeTab === 'about' ? 'active' : ''}"} 
-                   href="http://localhost:3000/vechungtoi"
-                   onClick={() => handleTabClick('about')}>
-                    Về Chúng Tôi
-                </a>
-            </li>
-        </ul>
-        <Hero />
-    </div>
-  );
-}
 
+    return (
+        <div>
+            <TopBar />
+            <hr />
+            <Navbar expand="lg" bg="light" variant="light" className="w-100">
+                <Container fluid>
+                    {/* <Navbar.Brand as={Link} to="/" onClick={() => handleTabClick('home')}>Brand</Navbar.Brand> */}
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto w-100 justify-content-between">
+                            <Nav.Link 
+                                as={Link} 
+                                to="/" 
+                                onClick={() => handleTabClick('home')} 
+                                className={activeTab === 'home' ? 'active' : ''}
+                            >
+                                Trang Chủ
+                            </Nav.Link>
+                            <Nav.Link 
+                                as={Link} 
+                                to="/dichvu" 
+                                onClick={() => handleTabClick('services')} 
+                                className={activeTab === 'services' ? 'active' : ''}
+                            >
+                                Dịch Vụ
+                            </Nav.Link>
+                            <Nav.Link 
+                                as={Link} 
+                                to="/vechungtoi" 
+                                onClick={() => handleTabClick('about')} 
+                                className={activeTab === 'about' ? 'active' : ''}
+                            >
+                                Về Chúng Tôi
+                            </Nav.Link>
+                            <Nav.Link 
+                                as={Link} 
+                                to="/lienhe" 
+                                onClick={() => handleTabClick('contact')} 
+                                className={activeTab === 'contact' ? 'active' : ''}
+                            >
+                                Liên Hệ
+                            </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            <Hero />
+        </div>
+    );
+}
 
 export default Header;

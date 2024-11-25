@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section4.css';
-import CallToAction from './CallToAction.js';
+import CallToAction from '../CallToAction.js';
 
 function Section4() {
   return (

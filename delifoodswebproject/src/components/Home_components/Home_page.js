@@ -1,5 +1,5 @@
 import React from 'react'
-import './Main-Page.css'
+import './Home_page.css'
 import Section1 from "./Section1.js";
 import Section2 from "./Section2.js";
 import Section3 from "./Section3.js";

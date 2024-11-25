@@ -1,18 +1,23 @@
-import './App.css';
-import Header from './components/Header.js';
-import MainPage from './components/Main-Page.js';
-import Footer from './components/Footer.js';
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Header from './Header';
+import Home from './Home';
+import Contact from './Contact';
+import Services from './Services';
+import About from './About';
 
 function App() {
-  return (
-  <div>
-    <Header />
-    <MainPage />
-    <Footer />
-  </div>
-   
-  );
+    return (
+        <BrowserRouter>
+            {/* <Header /> */}
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/dichvu" element={<Services />} />
+                <Route path="/lienhe" element={<Contact />} />
+                <Route path="/vechungtoi" element={<About />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

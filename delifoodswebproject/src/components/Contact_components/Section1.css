@@ -1,0 +1,54 @@
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 1em 2em 1em 2em;
+    border-radius: 5px;
+    margin: 0em 2em 2em 2em; 
+}
+
+.breadcrumb-item {
+    font-size: calc(0.75vw + 0.75vh);;
+    color: #007bff; 
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.contact-page {
+    padding: 20px;
+}
+
+.Contact_title{
+    text-align: center;
+    font-size: calc(1vw + 1vh);
+}
+
+.map-column {
+    text-align: center;
+}
+
+.contact-info-column {
+    padding: 20px; 
+    margin-top: 10px;
+}
+
+#contact-header {
+    text-align: center;
+    font-size: calc(1.5vw + 1.5vh);
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+#company-name {
+    font-size: calc(1.1vw + 1.1vh);
+    margin-bottom: 15px;
+}
+
+#phone-number,
+#email-address,
+#address {
+    font-size: calc(0.8vw + 0.8vh);
+    margin: 1em 0em 1em 0em;
+}

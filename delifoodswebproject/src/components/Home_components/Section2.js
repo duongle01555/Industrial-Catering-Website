@@ -18,7 +18,7 @@ function Section2() {
         </ul>
       </div>
       <div className='picture-2'>
-        <img src={require('../asset/18k.jpg')} alt="Ảnh dịch vụ chúng tôi cung cấp" />
+        <img src={require('../../asset/18k.jpg')} alt="Ảnh dịch vụ chúng tôi cung cấp" />
       </div> 
     </div> 
     <div className="button-2">
