@@ -1,0 +1,33 @@
+.contact-section {
+    padding: 20px;
+    border-radius: 5px;
+    width: 85%;
+    background: rgb(244,148,81);
+    background: linear-gradient(90deg, rgba(244,148,81,1) 0%, rgba(171,71,74,1) 50%);
+}
+
+.contact-section h2 {
+    /* color: #333; */
+    text-align: center;
+    /* color: white; */
+    color: #f0f0f0;
+}
+
+.contact-section p {
+    font-size: 16px;
+    line-height: 2;
+    color: aliceblue;
+}
+.contact-section h3 {
+    color: white;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li {
+    margin: 10px 0;
+    color: aliceblue;
+}
