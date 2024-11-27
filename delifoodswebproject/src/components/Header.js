@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import TopBar from './TopBar.js';
 import Hero from './Home_components/Hero.js';
 import './Header.css';
@@ -10,11 +10,27 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
+    const location = useLocation();
     const [activeTab, setActiveTab] = useState('home');
 
-    const handleTabClick = (tab) => {
-        setActiveTab(tab);
-    }
+    useEffect(() => {
+        switch (location.pathname) {
+            case '/':
+                setActiveTab('home');
+                break;
+            case '/dichvu':
+                setActiveTab('services');
+                break;
+            case '/vechungtoi':
+                setActiveTab('about');
+                break;
+            case '/lienhe':
+                setActiveTab('contact');
+                break;
+            default:
+                setActiveTab('home');
+        }
+    }, [location]);
 
     return (
         <div>
@@ -29,32 +45,28 @@ function Header() {
                             <Nav.Link 
                                 as={Link} 
                                 to="/" 
-                                onClick={() => handleTabClick('home')} 
-                                className={activeTab === 'home' ? 'active' : ''}
+                                className={activeTab === 'home' ? 'nav-link active' : 'nav-link'}
                             >
                                 Trang Chủ
                             </Nav.Link>
                             <Nav.Link 
                                 as={Link} 
                                 to="/dichvu" 
-                                onClick={() => handleTabClick('services')} 
-                                className={activeTab === 'services' ? 'active' : ''}
+                                className={activeTab === 'services' ? 'nav-link active' : 'nav-link'}
                             >
                                 Dịch Vụ
                             </Nav.Link>
                             <Nav.Link 
                                 as={Link} 
                                 to="/vechungtoi" 
-                                onClick={() => handleTabClick('about')} 
-                                className={activeTab === 'about' ? 'active' : ''}
+                                className={activeTab === 'about' ? 'nav-link active' : 'nav-link'}
                             >
                                 Về Chúng Tôi
                             </Nav.Link>
                             <Nav.Link 
                                 as={Link} 
                                 to="/lienhe" 
-                                onClick={() => handleTabClick('contact')} 
-                                className={activeTab === 'contact' ? 'active' : ''}
+                                className={activeTab === 'contact' ? 'nav-link active' : 'nav-link'}
                             >
                                 Liên Hệ
                             </Nav.Link>
