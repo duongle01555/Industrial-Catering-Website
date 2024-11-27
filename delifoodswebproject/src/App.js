@@ -5,6 +5,7 @@ import Home from './Home';
 import Contact from './Contact';
 import Services from './Services';
 import About from './About';
+import NotFound from './components/Notfound_components/Notfound_page';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/dichvu" element={<Services />} />
                 <Route path="/lienhe" element={<Contact />} />
                 <Route path="/vechungtoi" element={<About />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section1.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Card, Container, Row, Col, Pagination } from 'react-bootstrap';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 function Section1() {

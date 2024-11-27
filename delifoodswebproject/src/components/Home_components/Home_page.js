@@ -8,7 +8,7 @@ import Section5 from "./Section5.js";
 import Section6 from "./Section6.js";
 import Section7 from "./Section7.js";
 
-function MainPage() {
+function HomePage() {
   return (
     <div>
       <Section1 />
@@ -22,4 +22,4 @@ function MainPage() {
   )
 }
 
-export default MainPage;
+export default HomePage;
