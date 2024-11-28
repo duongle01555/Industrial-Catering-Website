@@ -32,4 +32,56 @@
     width: 100%; 
     height: 300px;
     /* object-fit: cover; */
-  }
+}
+
+.Moreinfo_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 1em;
+}
+
+.food-card {
+    width: 100%;
+    margin: 2em auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* .food-price {
+    color: #28a745;
+} */
+
+.food-introduction {
+    margin-top: 10px;
+}
+
+.ingredient-title{
+    padding-left: 1em;
+    margin-top: 1em;
+}
+
+.ingredient-list {
+    /* list-style-type: none; */
+    padding: 1em;
+    margin-top: -1em;
+    /* margin: 1em; */
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-button {
+    margin: 0;
+}
