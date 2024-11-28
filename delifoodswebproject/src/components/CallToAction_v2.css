@@ -1,27 +1,27 @@
-.box1 {
+.box1_v2 {
   border: 0.05rem solid black;
   padding: 2em;
   margin: 2em;
   text-align: center;
-  background: rgb(150,58,61);
-  background: linear-gradient(90deg, rgba(150,58,61,1) 35%, rgba(200,186,33,1) 100%);
+  background: rgb(110,164,40);
+  background: linear-gradient(90deg, rgba(110,164,40,1) 35%, rgba(244,230,81,1) 100%);
   border-radius: 0.75em;
   width: 80%;
   justify-self: center;
 }
 
-.box1 h1, .box1 p {
+.box1_v2 h1, .box1_v2 p {
   color: white;
   font-weight: 600;
   
 }
 
-.box1 h1 {
+.box1_v2 h1 {
   font-size: 2rem;
 }
 
-.box1 p {
-  font-size: 1.2rem;
+.box1_v2 p {
+  font-size: 1.25rem;
 }
 
 .button {

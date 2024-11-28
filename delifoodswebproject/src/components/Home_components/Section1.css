@@ -5,9 +5,26 @@
   padding: 1em;
 }
 
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 1em 2em 1em 2em;
+  border-radius: 5px;
+  margin: 0em 2em 2em 2em; 
+}
+
+.breadcrumb-item {
+  font-size: 1.25rem;
+  color: #007bff; 
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+  font-weight: bold;
+}
+
 .info-bar {
   border-bottom: 1px solid black;
-  font-size: calc(1vw + 1vh);
+  font-size: 1.5rem
 }
 
 .inner-section-about-us {
@@ -19,7 +36,7 @@
   justify-content: center;
   text-align: center;
   color: red;
-  font-size: calc(1.5vw + 1.5vh);
+  font-size: 2rem;
   width: 100%;
   height: auto;
   margin: 0em 0em 1em 0em;
@@ -45,12 +62,12 @@
 
 .introduction-section-1 {
   width: 100%;
-  font-size: calc(1vw + 1vh);
+  font-size: 1.5rem;
   margin-bottom: 0.5em;
 }
 
 .introduction-brief-1{
-  font-size: calc(0.8vw + 0.8vh);
+  font-size: 1.2rem;
   line-height: 1.75; 
   margin-bottom: 0.5em;
 }
@@ -59,7 +76,7 @@
   list-style-type: none;
   text-indent: 1em;
   margin-bottom: 0.5em;
-  font-size: calc(0.8vw + 0.8vh);
+  font-size: 1.2rem;
 }
 
 .introduction-list-1 li {

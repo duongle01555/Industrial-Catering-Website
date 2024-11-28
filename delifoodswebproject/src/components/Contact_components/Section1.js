@@ -10,7 +10,7 @@ function Section1() {
                 <Breadcrumb.Item href="/">DELIFOODS</Breadcrumb.Item>
                 <Breadcrumb.Item active>Liên hệ</Breadcrumb.Item>
             </Breadcrumb>
-            <Container className="contact-page">
+            <Container fluid className="contact-page">
                 {/* <div id="Contact_title">Bản Đồ</div> */}
                 <Row>
                     <Col md={6} className="map-column">

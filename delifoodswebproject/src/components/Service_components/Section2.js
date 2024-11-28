@@ -4,7 +4,7 @@ import './Section2.css';
 
 function Section2() {
     return (
-        <Container fluid className="contact-section my-5">
+        <Container fluid className="contact-section my-5 ">
             <h2>Nếu Bạn Vẫn Còn Do Dự, Đừng Ngần Ngại Mà Hãy Liên Hệ Với Chúng Tôi Ngay!</h2>
             <Row className="mt-4">
                 <Col md={6}>

@@ -6,7 +6,7 @@
 }
 
 .breadcrumb-item {
-    font-size: calc(0.75vw + 0.75vh);;
+    font-size: 1.25rem;
     color: #007bff; 
 }
 
@@ -16,6 +16,7 @@
 }
 
 .contact-page {
+    width: 85%;
     padding: 20px;
     background-color: #F4E651;
 }
@@ -36,20 +37,21 @@
 
 #contact-header {
     text-align: center;
-    font-size: calc(1.5vw + 1.5vh);
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
     letter-spacing: 3px;
 }
 
 #company-name {
-    font-size: calc(1.1vw + 1.1vh);
+    font-size: 1.5rem;
     margin-bottom: 15px;
 }
 
 #phone-number,
 #email-address,
 #address {
-    font-size: calc(0.8vw + 0.8vh);
+    font-size: 1.2rem;
+    line-height: 2;
     margin: 1em 0em 1em 0em;
 }

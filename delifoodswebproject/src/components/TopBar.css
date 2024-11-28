@@ -10,13 +10,13 @@
 #tb-title-1 {
     color: red;
     font-weight: bold;
-    font-size: calc(1.25vw + 1.25vh);
+    font-size: 1.5rem;
 }
 
 #tb-title-2 {
     margin-top: 2px;
     font-weight: bold;
-    font-size: calc(0.75vw + 0.75vh); 
+    font-size: 1rem; 
 }
 
 .tb-search-box{
@@ -38,7 +38,8 @@
 
 @media (max-width: 768px) {
     .top-bar-grid {
-        grid-template-columns: 50px auto; 
+        /* height: 120px; */
+        grid-template-columns: 0px auto; 
         grid-template-rows: auto auto; 
     }
 
@@ -52,10 +53,11 @@
     }
 
     #tb-title-1{
-        font-size: calc(1.25vw + 1.25vh);
+        font-size: 1.15rem;
     }
 
     #tb-title-2{
-        font-size: calc(1vw + 1vh);
+        margin-top: 0px;
+        font-size: 0.85rem;
     }
 }

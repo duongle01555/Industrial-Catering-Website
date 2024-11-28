@@ -18,21 +18,21 @@
   #heading-carousel1{
     /* color: aqua; */
     font-weight: 800;
-    font-size: calc(1vw + 1vh);
+    font-size: 1rem;
   }
 
   #paragraph-carousel1{
     /* color: aqua; */
-    font-size: calc(1vw + 1vh);
+    font-size: 1rem;
   }
 
   #heading-carousel2, #heading-carousel3{
     color: palevioletred;
     font-weight: 800;
-    font-size: calc(1vw + 1vh);
+    font-size: 1rem;
   }
 
   #paragraph-carousel2, #paragraph-carousel3{
     color: palevioletred;
-    font-size: calc(1vw + 1vh);
+    font-size: 1rem;
   }

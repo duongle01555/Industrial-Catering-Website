@@ -1,0 +1,21 @@
+.motto-Container {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    width: 80%;
+    height: auto;
+    background-color: #963A3D;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+.motto-Container div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: oblique;
+    /* font-style: italic; */
+    color: aliceblue; 
+    margin: 2em 1.5em 2em 1.5em;
+}
