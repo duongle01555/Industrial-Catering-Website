@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-import Video from '../asset/HotFood_JPN.mp4'
+import Video from '../../asset/HotFood_JPN.mp4'
 
 function Hero() {
   return (

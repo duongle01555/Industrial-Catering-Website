@@ -1,0 +1,41 @@
+
+.all-6 {
+    /* background-color: rgba(150, 58, 61, 1); */
+    max-width: 90%;
+    justify-self: center;
+
+}
+
+.all-6 h1 {
+    color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    /* align-self: center;
+    align-items: center;
+    align-content: center; */
+    text-align: center;
+}
+
+.all-6 p {
+    margin: 1em 3em 1em 3em;
+    font-size: 1.2rem;
+    text-align: center;
+    /* color: blueviolet; */
+}
+
+/* .container {
+    border: 2px solid #000;
+    padding: 1em;
+} */
+
+/* .row {
+    border: 1px solid #000;
+    margin: 1em 0;
+}
+
+.col {
+    border: 1px solid #000; 
+    padding: 1em; 
+    text-align: center; 
+    font-size: calc(0.75vw + 0.75vh);
+} */

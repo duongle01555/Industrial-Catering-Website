@@ -1,0 +1,73 @@
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 1em 2em 1em 2em;
+    border-radius: 5px;
+    margin: 0em 2em 2em 2em; 
+}
+
+.breadcrumb-item {
+    font-size: 1.25rem;
+    color: #007bff; 
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.about-us {
+    padding: 20px;
+    width: 85%;
+}
+
+#Aboutus-header{
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0.25em;
+}
+
+#header-welcome{
+    font-weight: 700;
+    margin-bottom: 0.25em;
+    font-size: 1.5rem;
+}
+
+.Aboutus-picture{
+    width: 50%;
+}
+
+.about-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.about-us p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    /* text-indent: 1em; */
+    margin-left: 1em;
+
+}
+
+.about-us ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-us li {
+    margin-left: 2em;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+/* .about-us img {
+    max-width: 100%;
+    height: auto;
+} */

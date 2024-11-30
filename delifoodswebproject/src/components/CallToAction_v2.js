@@ -1,10 +1,10 @@
 import React from 'react';
-import './CallToAction.css';
+import './CallToAction_v2.css';
 import Button from 'react-bootstrap/Button';
 
-function CallToAction() {
+function CallToAction_2() {
   return (
-    <div className="box1">
+    <div className="box1_v2">
       <h1>Sẵn sàng sử dụng dịch vụ của Delifoods?</h1>
       <p>Nguồn thực phẩm an toàn, bữa ăn ngon miệng, Tạo sự thoải mái và yên tâm tuyệt đối cho khách hàng.
       <br></br>
@@ -15,4 +15,4 @@ function CallToAction() {
   );
 };
 
-export default CallToAction;
+export default CallToAction_2;

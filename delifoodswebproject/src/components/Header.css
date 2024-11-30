@@ -1,30 +1,17 @@
-/* NavBar.css */
-
-/* General styles for the nav bar container */
-#navBar {
-    display: flex;
-    justify-content: center; /* Center buttons */
-    background-color: #f8f9fa; /* Light background color */
-    padding: 10px; /* Padding around the nav bar */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+.nav-link {
+    flex: 1; 
+    text-align: center; 
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Style the buttons */
-.btn {
-    border: none;
-    outline: none;
-    padding: 10px 20px; /* More padding for better click area */
-    background-color: #007bff; /* Bootstrap primary color */
-    color: white; /* Text color */
-    cursor: pointer;
-    font-size: 16px; /* Font size */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
-    margin: 0 5px; /* Space between buttons */
+.nav-link:hover {
+    color: #007bff; 
+    background-color: rgba(0, 123, 255, 0.1); 
+    text-decoration: underline;
 }
 
-/* Style the active class and buttons on mouse-over */
-.active, .btn:hover {
-    background-color: #0056b3; /* Darker shade for active/hover */
-    color: rgb(255, 0, 0); /* Maintain text color */
+.nav-link.active {
+    font-weight: bold;
+    color: #0056b3;
+    background-color: rgba(0, 123, 255, 0.2); 
 }
