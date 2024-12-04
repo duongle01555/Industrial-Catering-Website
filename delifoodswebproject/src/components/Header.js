@@ -35,9 +35,9 @@ function Header() {
     return (
         <div>
             <TopBar />
-            <hr />
-            <Navbar expand="lg" bg="light" variant="light" className="w-100">
-                <Container fluid>
+            {/* <div>alo</div> */}
+            <Navbar className='py-0 px-0' expand="sm" bg="white" variant="light" >
+                <Container fluid className="Navbar-container" >
                     {/* <Navbar.Brand as={Link} to="/" onClick={() => handleTabClick('home')}>Brand</Navbar.Brand> */}
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

@@ -21,7 +21,9 @@ function Section1() {
                 <p className="introduction-brief-1">
                   Chuyên cung cấp và phục vụ suất ăn công nghiệp phục vụ cho nhiều đơn vị: Nhà máy, xí nghiệp, công ty, trường học, bệnh viện, văn phòng,...
                 </p>
-                  Ngoài ra chúng tôi còn cung cấp các dịch vụ:
+              </p>
+              <p className="introduction-section-1">
+                Ngoài ra chúng tôi còn cung cấp các dịch vụ:
               </p>
               <ul className="introduction-list-1">
                 <li>✥ Thầu căng tin, thầu bếp ăn</li>

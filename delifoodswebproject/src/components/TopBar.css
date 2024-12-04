@@ -1,10 +1,30 @@
 .top-bar-grid {
     display: grid;
     background-color: rgb(255, 255, 100);
-    grid-template-columns: 100px auto 200px;
+    grid-template-columns: 6em auto 12em;
+    align-items: flex-start; 
+    height: 6em;
+    grid-gap: 0.5em;
+}
+
+.logoduck-container {
+    display: flex; 
+    justify-content: center; 
     align-items: center; 
-    height: 100px;
-    grid-gap: 10px;
+    max-width: 100%; 
+}
+
+#logoduck {
+    /* max-width: 100%;  */
+    height: 6em;
+}
+
+.tb-title{
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: center;  */
+    /* align-items: center;  */
+    max-width: 100%; 
 }
 
 #tb-title-1 {
@@ -14,12 +34,13 @@
 }
 
 #tb-title-2 {
-    margin-top: 2px;
+    margin-top: -0.5em;
     font-weight: bold;
     font-size: 1rem; 
 }
 
 .tb-search-box{
+    align-items: center;
     margin-right: 1em;
 }
 
@@ -29,23 +50,34 @@
     border: none;
     margin-top: 8px;
     font-size: 17px;
-}
-
-#logoduck {
-    width: 100%;
-    height: auto; 
+    align-items: center;
 }
 
 @media (max-width: 768px) {
     .top-bar-grid {
-        /* height: 120px; */
-        grid-template-columns: 0px auto; 
-        grid-template-rows: auto auto; 
+        height: 6em;
+        /* align-items: center;  */
+        grid-template-columns: 5em auto; 
+        grid-gap: 0.5em;
+        /* grid-template-rows: auto auto;  */
     }
 
-    #logoduck {
+    /* #logoduck {
         display: none; 
+    } */
+
+    .logoduck-container {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        max-width: 100%; 
     }
+    
+    #logoduck {
+        max-width: 100%; 
+        height: 6em;
+    }
+    
 
     .tb-search-box {
          /* grid-column: 1 / -1;  */
@@ -53,11 +85,13 @@
     }
 
     #tb-title-1{
-        font-size: 1.15rem;
+        /* font-size: 1.1rem; */
+        font-size: calc(1.25vw + 1.25vh);
     }
 
     #tb-title-2{
-        margin-top: 0px;
-        font-size: 0.85rem;
+        margin-top: -1em;
+        /* font-size: 0.85rem; */
+        font-size: calc(1vw + 1vh);
     }
 }

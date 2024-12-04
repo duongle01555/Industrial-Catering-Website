@@ -1,12 +1,13 @@
 .box1 {
   border: 0.05rem solid black;
+  border-radius: 0.75em;
   padding: 2em;
-  margin: 2em;
+  margin: 2em 5em 0em 5em;
   text-align: center;
   background: rgb(150,58,61);
   background: linear-gradient(90deg, rgba(150,58,61,1) 35%, rgba(200,186,33,1) 100%);
-  border-radius: 0.75em;
-  width: 80%;
+  width: 88%;
+  /* max-width: 100%; */
   justify-self: center;
 }
 
@@ -57,6 +58,10 @@
 }
 
 @media (max-width: 768px) {
+  .box1 {
+    width: 90%;
+  }
+
   .button {
     padding: 0.5rem 1rem;
     font-size: 1rem;

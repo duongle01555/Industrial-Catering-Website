@@ -8,12 +8,12 @@ function Footer() {
   return (
     <Container className="all-footer">
       <Row>
-        <Col>
+        <Col xs={6} md={3}>
           <h5 id="service_header_title">Về chúng tôi</h5>
           <p id="service_header_aboutus_paragraph">DELI FOODS chúng tôi khẳng định được vị thế và uy tín của mình thông qua việc phục vụ hàng nghìn suất ăn mỗi ngày cho các doanh nghiệp.
           Chúng tôi rất hy vọng được sự hợp tác nhiều hơn nữa của Quý khách hàng !</p>
         </Col>
-        <Col>
+        <Col xs={6} md={3}>
           <h5 id="service_header_title">Dịch vụ</h5>
           <ul className="footer-service-list">
             <li>Suất ăn Công nghiệp</li>
@@ -22,20 +22,20 @@ function Footer() {
             <li>Suất ăn Trường học - Canteen</li>
           </ul>
         </Col>
-        <Col>
+        <Col xs={6} md={3}>
           <h5 id="service_header_title">Thông tin liên hệ</h5>
           <p>Email: delifood@company.pro</p>
           <p>SĐT: 0336333988</p>
           <p>Địa chỉ: 655 Điện Biên Phủ, KP. 1, P. Phú Tân, TP. Thủ Dầu Một, Bình Dương</p>
           <p>Giờ mở cửa: 8:00am - 10:00pm</p>
         </Col>
-        <Col>
+        <Col xs={6} md={3}>
           <h5 id="service_header_title">Fanpage</h5>
-          <p>Check out our fan page for updates and special offers!</p>
+          <p>Hãy theo dõi trang của chúng tôi để cập nhật thông tin và các ưu đãi đặc biệt!</p>
           <div>
             <a href="https://www.facebook.com/yourfanpage" target="_blank" rel="noreferrer">Facebook</a><br />
-            <a href="https://www.facebook.com/yourfanpage" target="_blank" rel="noreferrer">Instagram</a><br />
-            <a href="https://www.facebook.com/yourfanpage" target="_blank" rel="noreferrer">X</a>
+            <a href="https://www.instagram.com/yourfanpage" target="_blank" rel="noreferrer">Instagram</a><br />
+            <a href="https://www.x.com/yourfanpage" target="_blank" rel="noreferrer">X</a>
           </div>
         </Col>
       </Row>

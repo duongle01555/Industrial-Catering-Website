@@ -6,7 +6,7 @@ import Section3 from "./Section3.js";
 import Section4 from "./Section4.js";
 import Section5 from "./Section5.js";
 import Section6 from "./Section6.js";
-import Section7 from "./Section7.js";
+// import Section7 from "./Section7.js";
 
 function HomePage() {
   return (
@@ -17,7 +17,7 @@ function HomePage() {
       <Section4 />
       <Section5 />
       <Section6 />
-      <Section7 />
+      {/* <Section7 /> */}
     </div>
   )
 }

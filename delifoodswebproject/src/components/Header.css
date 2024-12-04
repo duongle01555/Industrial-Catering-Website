@@ -1,16 +1,24 @@
-.nav-link {
+.container-fluid.Navbar-container {
+    padding-left: 0;
+    padding-right: 0;
+    /* padding: 0; */
+}
+
+.Navbar-container .nav-link {
     flex: 1; 
     text-align: center; 
     transition: color 0.3s ease, background-color 0.3s ease;
+    font-size: 1.2rem;
+    color: black;
 }
 
-.nav-link:hover {
+.Navbar-container .nav-link:hover {
     color: #007bff; 
     background-color: rgba(0, 123, 255, 0.1); 
     text-decoration: underline;
 }
 
-.nav-link.active {
+.Navbar-container .nav-link.active {
     font-weight: bold;
     color: #0056b3;
     background-color: rgba(0, 123, 255, 0.2); 

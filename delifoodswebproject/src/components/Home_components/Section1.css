@@ -1,5 +1,5 @@
 .all-1 {
-  max-width: 90%;
+  max-width: 100%;
   justify-self: center;
   margin: 0 auto; 
   padding: 1em;
@@ -29,9 +29,11 @@
 
 .inner-section-about-us {
   text-align: justify;
+  margin: 0em 5em 0em 5em;
 }
 
 .header-1 {
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: bold;
   justify-content: center;
   text-align: center;
@@ -49,27 +51,30 @@
   justify-content: space-between;
   /* gap: 50px; */
   /* flex: 1 1; */
-  margin: 0;
+  /* margin: 0 5em 0 5em; */
 }
 
 .section-1 > div { 
   width: 50%; 
 }
 
-.text-column-1 {
+/* .text-column-1 {
   margin: 1em 5em 1em 1em;
-}
+} */
 
 .introduction-section-1 {
+  margin: 0em 0em 0.5em 1em;
   width: 100%;
   font-size: 1.5rem;
-  margin-bottom: 0.5em;
 }
 
 .introduction-brief-1{
   font-size: 1.2rem;
   line-height: 1.75; 
   margin-bottom: 0.5em;
+  /* text-indent: 5%; */
+  margin-top: 0.25em;
+  margin-left: 2em;
 }
 
 .introduction-list-1 {
@@ -88,6 +93,7 @@
   flex-direction: column; 
   justify-content: center; 
   align-items: center;  
+  margin: 0em -2em 0em 0em;
 }
 
 .image-section-1 {
@@ -128,6 +134,11 @@
 } */
 
 @media (max-width: 768px) {
+  .inner-section-about-us {
+    text-align: justify;
+    margin: 0em 1em 0em 1em;
+  }
+
   .inner-section-1 {
     flex-direction: column;
   }
@@ -153,6 +164,18 @@
     flex: 0 0 100%;
   } */
 
+  .introduction-section-1 {
+    margin: 0em 0em 0.5em 0em;
+  }
+
+  .introduction-brief-1 {
+    margin: 0em 0em 0.5em 1em;
+  }
+
+  .introduction-list-1{
+    text-indent: 0;
+  }
+
   .image-column {
     display: flex;
     flex-direction: column;
@@ -161,17 +184,29 @@
     
   }
 
+  .image-section-1 {
+    /* margin-bottom: 2em; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;  
+    /* display: block;
+    max-width: 100%;
+    height: auto; */
+  
+  }
+
   #image-section-1-employee{
     /* margin-left: calc(5vw + 3vh); */
-    margin-left: 4em;
-    max-width: 75%;
+    /* margin-left: 4em; */
+    max-width: 90%;
 
   }
 
   #image-section-1-serving{
     /* margin-left: calc(5vw + 3vh); */
-    margin-left: 4em;
-    max-width: 75%;
+    /* margin-left: 4em; */
+    max-width: 90%;
 
   }
 }

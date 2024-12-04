@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import { CarouselImage1, CarouselImage2, CarouselImage3 } from './Section6-Carousel_Support.js';
-import './Section6-Carousel.css'
+import { CarouselImage1, CarouselImage2, CarouselImage3 } from './Section5-Carousel_Support.js';
+import './Section5-Carousel.css'
 
-function Section6_Carousel() {
+function Section5_Carousel() {
   return (
     <div className='carousel-container'>
       <Carousel>
@@ -34,4 +34,4 @@ function Section6_Carousel() {
   );
 }
 
-export default Section6_Carousel;
+export default Section5_Carousel;

@@ -34,7 +34,7 @@ function Section1() {
             </Breadcrumb>
             <Container fluid className="Menutable_container">
                 <h1 className="text-center my-4">Suất ăn theo giá</h1>
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} sm={2} lg={3} className="g-4">
                     {foods.map(food => (
                         <Col key={food.id}>
                             <Card className="Menutable_card">
@@ -44,9 +44,9 @@ function Section1() {
                                 <Card.Body>
                                     <Card.Title className="justify-content-center text-center my-1">{food.name}</Card.Title>
                                     <div className="justify-content-center text-center Moreinfo_button">
-                                    <Button variant="danger" onClick={() => handleShow(food)}>
-                                        Chi tiết
-                                    </Button>
+                                        <Button variant="danger" onClick={() => handleShow(food)}>
+                                            Chi tiết
+                                        </Button>
                                     </div>
                                 </Card.Body>
                             </Card>
@@ -62,7 +62,7 @@ function Section1() {
                         <Modal.Body>
                             <Card className="food-card">
                                 <Card.Body>
-                                    <Card.Title className="food-title"></Card.Title>
+                                    <Card.Title className="food-title">{selectedFood.name}</Card.Title>
                                     <Card.Subtitle className="mb-2 food-price">
                                         <strong>Đơn giá:</strong> {selectedFood.price} VNĐ
                                     </Card.Subtitle>
@@ -88,7 +88,7 @@ function Section1() {
                             Đóng
                         </Button>
                     </Modal.Footer>
-                 </Modal>
+                </Modal>
 
                 <Pagination className="justify-content-center my-4 Pagination_style">
                     <Pagination.First />
