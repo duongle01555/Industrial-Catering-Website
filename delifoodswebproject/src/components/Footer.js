@@ -7,6 +7,68 @@ import Col from 'react-bootstrap/Col';
 function Footer() {
   return (
     <Container className="all-footer">
+      {/* <Row>
+          <Col md={4}>
+              <Row className="footer-item">
+                  <Col>
+                      <img id="footer_phone" src={require('../asset/phone.jpg')} alt="footer_phone" />
+                  </Col>
+                  <Col>
+                      <Row>
+                          <Col>
+                              <p>Gọi Chúng Tôi</p>
+                          </Col>
+                      </Row>
+                      <Row>
+                          <Col>
+                              <a href="tel:02439533343">024 395 33343</a>
+                          </Col>
+                      </Row>
+                  </Col>
+              </Row>
+          </Col>
+
+          <Col md={4}>
+              <Row className="footer-item">
+                  <Col>
+                      <img id="footer_tick" src={require('../asset/tick.jpg')} alt="footer_tick" />
+                  </Col>
+                  <Col>
+                      <Row>
+                          <Col>
+                              <p>Đảm bảo</p>
+                          </Col>
+                      </Row>
+                      <Row>
+                          <Col>
+                              An toàn - Vệ sinh - Chất lượng
+                          </Col>
+                      </Row>
+                  </Col>
+              </Row>
+          </Col>
+
+          <Col md={4}>
+              <Row className="footer-item">
+                  <Col>
+                      <img id="footer_email" src={require('../asset/email.jpg')} alt="footer_email" />
+                  </Col>
+                  <Col>
+                      <Row>
+                          <Col>
+                              <p>Email</p>
+                          </Col>
+                      </Row>
+                      <Row>
+                          <Col>
+                              <a href="mailto:delifood@company.pro">delifood@company.pro</a>
+                          </Col>
+                      </Row>
+                  </Col>
+              </Row>
+          </Col>
+      </Row> */}
+
       <Row>
         <Col xs={6} md={3}>
           <h5 id="service_header_title">Về chúng tôi</h5>

@@ -5,7 +5,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 function Section1() {
   return (
     <>
-      <Breadcrumb>
+      <Breadcrumb style={{backgroundColor: '#fff'}}>
         <Breadcrumb.Item href="/">DELIFOODS</Breadcrumb.Item>
         <Breadcrumb.Item active>Trang chủ</Breadcrumb.Item>
       </Breadcrumb>

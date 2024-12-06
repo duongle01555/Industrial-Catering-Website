@@ -1,5 +1,5 @@
 .carousel-container {
-    max-width: 60%;
+    max-width: 65%;
     /* margin: 1em 1em 1em 1em; */
     padding-bottom: 1em;
     margin: auto;
@@ -15,24 +15,32 @@
     height: auto;
   } */
 
-  #heading-carousel1{
+  #heading-carousel1, #heading-carousel2, #heading-carousel3{
     /* color: aqua; */
     font-weight: 800;
     font-size: 1rem;
   }
 
-  #paragraph-carousel1{
-    /* color: aqua; */
+  #paragraph-carousel1, #paragraph-carousel2, #paragraph-carousel3{
+    /* color: palevioletred; */
     font-size: 1rem;
   }
+  
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 90%;
+  }
+}
 
-  #heading-carousel2, #heading-carousel3{
-    color: palevioletred;
+@media (max-width: 480px) {
+  #heading-carousel1, #heading-carousel2, #heading-carousel3{
+    /* color: aqua; */
     font-weight: 800;
     font-size: 1rem;
   }
 
-  #paragraph-carousel2, #paragraph-carousel3{
-    color: palevioletred;
-    font-size: 1rem;
+  #paragraph-carousel1, #paragraph-carousel2, #paragraph-carousel3{
+    /* color: palevioletred; */
+    font-size: 0.75rem;
   }
+}

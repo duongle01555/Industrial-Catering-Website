@@ -33,7 +33,7 @@ function Section1() {
                 <Breadcrumb.Item active>Dịch vụ</Breadcrumb.Item>
             </Breadcrumb>
             <Container fluid className="Menutable_container">
-                <h1 className="text-center my-4">Suất ăn theo giá</h1>
+                <h1 id="Menutable_header" className="text-center my-4">Suất ăn theo giá</h1>
                 <Row xs={1} sm={2} lg={3} className="g-4">
                     {foods.map(food => (
                         <Col key={food.id}>
@@ -90,7 +90,7 @@ function Section1() {
                     </Modal.Footer>
                 </Modal>
 
-                <Pagination className="justify-content-center my-4 Pagination_style">
+                {/* <Pagination className="justify-content-center my-4 Pagination_style">
                     <Pagination.First />
                     <Pagination.Prev />
                     <Pagination.Item active>{1}</Pagination.Item>
@@ -98,7 +98,7 @@ function Section1() {
                     <Pagination.Item>{3}</Pagination.Item>
                     <Pagination.Next />
                     <Pagination.Last />
-                </Pagination>
+                </Pagination> */}
             </Container>
         </>
     );

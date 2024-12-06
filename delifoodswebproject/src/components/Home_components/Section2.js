@@ -22,7 +22,7 @@ function Section2() {
           </div> 
         </div> 
         <div className="button-2">
-          <button>Xem thêm dịch vụ</button>       
+          <button onClick={() => window.location.href='/dichvu'}>Xem thêm dịch vụ</button>       
         </div>    
                 
     </div>
